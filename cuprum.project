@@ -23,8 +23,9 @@
     + Versionamento
 
         git init
-        git commit -a -m $'Versionamento Inicial do Projeto'
+        git add *
+        git commit -a -m "Versionamento Inicial do Projeto"
         git remote add origin https://github.com/quintinno/CUPRUMAPI.git
-        git push -u origin main
+        git push --set-upstream origin master
         
 https://www.youtube.com/watch?v=04QoJx7r_XQ&list=PL_Axpn7FrXHR3nZiQPHFClLu6VByhWkzG&index=2
